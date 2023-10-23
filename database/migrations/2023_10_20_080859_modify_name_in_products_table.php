@@ -24,7 +24,7 @@ return new class extends Migration
     {
         Schema::table('products', function (Blueprint $table) {
             $table->text('name')
-            ->change();//add column after id column
+            ->change();
         });
     }
 };

@@ -25,7 +25,6 @@ php artisan migrate:fresh
 sail artisan migrate:fresh
 ```
 
-
 refresh (WARN): execute down method of all migrations and then run all migrations. Warning this is a destructive method.
 
 ```
@@ -44,3 +43,13 @@ Modify camp in a table
 ```bash
 php artisan make:migration modify_name_in_products_table
 ```
+
+---
+
+* [ ] Tinker: interact with your project using console
+
+![1698036073447](image/README/1698036073447.png)
+
+Seeder
+
+`php artisan make:seeder ModelSeeder`
